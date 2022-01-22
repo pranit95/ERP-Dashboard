@@ -1,0 +1,33 @@
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.boxContainer{
+    list-style-type: none;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    margin: 8px 0;
+    padding: 15px;
+    height: 50px;
+}
+
+.headRow{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.headRowHeading{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.headRowValue{
+    color:blue;
+    font-size: 16px;
+    font-weight: 600;
+}
