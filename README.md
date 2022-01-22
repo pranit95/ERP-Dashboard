@@ -14,4 +14,9 @@ using command --> `cd frontend`
 
 ## STEP 3
 
-Type `npm start` in terminal
+Open terminal and
+Type `npm i` in the terminal
+
+## STEP 4
+
+Type `npm start` in terminal to open the app in localhost
