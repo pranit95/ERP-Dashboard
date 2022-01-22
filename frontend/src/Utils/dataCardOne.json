@@ -1,0 +1,50 @@
+[{
+    "id": 1,
+    "first_heading": "Total Customers",
+    "second_heading": "New Customers",
+    "first_value": "1343",
+    "second_value": "218"
+  }, {
+    "id": 2,
+    "first_heading": "No.of Products",
+    "second_heading": "New Products",
+    "first_value": "7556",
+    "second_value": "4095"
+  }, {
+    "id": 3,
+    "first_heading": "Total Income",
+    "second_heading": "vs Previous Month",
+    "first_value": "78,536.53",
+    "second_value": "27.3%"
+  }, {
+    "id": 4,
+    "first_heading": "",
+    "second_heading": "",
+    "first_value": "",
+    "second_value": ""
+  }, {
+    "id": 5,
+    "first_heading": "No.of Suppliers",
+    "second_heading": "New Suppliers",
+    "first_value": "1006",
+    "second_value": "106"
+  }, {
+    "id": 6,
+    "first_heading": "Stock in Amount",
+    "second_heading": "Stock in Qty",
+    "first_value": "-2",
+    "second_value": "555678"
+  }, {
+    "id": 7,
+    "first_heading": "Net Profit",
+    "second_heading": "vs Previous Month",
+    "first_value": "0",
+    "second_value": ""
+  }, {
+    "id": 8,
+    "first_heading": "Cash in Hand",
+    "second_heading": "Bank Accounts",
+    "first_value": "1.03 L",
+    "second_value": "-128.79 C"
+  }]
+  
