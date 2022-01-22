@@ -1,18 +1,28 @@
 [{
     "id": 1,
+    "second_val": "785",
     "first_heading": "Abc",
     "first_value": "Dry Fruit"
   }, {
     "id": 2,
+    "second_val": "555",
     "first_heading": "Tuner",
     "first_value": "Dry Fruit"
   }, {
     "id": 3,
     "first_heading": "MISM",
-    "first_value": "Dry Fruit"
+    "first_value": "Dry Fruit",
+    "second_val": "521"
   }, {
     "id": 4,
-    "first_heading": "Last Week",
-    "first_value": "Dry Fruit"
+    "first_heading": "Jeans",
+    "second_val": "452",
+    "first_value": "Footwear"
+  },
+  {
+    "id": 5,
+    "first_heading": "T-Shirts",
+    "second_val": "392",
+    "first_value": "clothing"
   }]
   

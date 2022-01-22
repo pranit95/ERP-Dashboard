@@ -1,0 +1,18 @@
+[{
+    "id": 1,
+    "first_heading": "VIP Customers",
+    "first_value": "8"
+  }, {
+    "id": 2,
+    "first_heading": "Rgular Customer",
+    "first_value": "10"
+  }, {
+    "id": 3,
+    "first_heading": "Risk Customer",
+    "first_value": "27"
+  }, {
+    "id": 4,
+    "first_heading": "Lost Customer",
+    "first_value": "1298"
+  }]
+  
