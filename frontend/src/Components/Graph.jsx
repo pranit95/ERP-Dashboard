@@ -1,31 +1,52 @@
-import React from "react";
-import Paper from '@material-ui/core/Paper';
-import {
-    ArgumentAxis,
-    ValueAxis,
-    Chart,
-    BarSeries,
-} from '@devexpress/dx-react-chart-material-ui';
+import { Bar } from "react-chartjs-2";
 
-
-const Graph = () => {
-
-// Sample data
-const data = [
-        { argument: 'Monday', value: 30 },
-        { argument: 'Tuesday', value: 20 },
-        { argument: 'Wednesday', value: 10 },
-        { argument: 'Thursday', value: 50 },
-        { argument: 'Friday', value: 60 },
-        ];  
-
-return (
-    <>
-        <Paper style={{width:"90%", margin:"auto", height:"55%"}}>
-            
-        </Paper>
-    </>
-);
+const Graph = () =>  {
+  return (
+    <div >
+      <h1></h1>
+      <div style={{ maxWidth: "650px" }}>
+        {/* <Bar
+          data={{
+            // Name of the variables on x-axies for each bar
+            labels: ["1st bar", "2nd bar", "3rd bar", "4th bar"],
+            datasets: [
+              {
+                // Label for bars
+                label: "total count/value",
+                // Data or value of your each variable
+                data: [1552, 1319, 613, 1400],
+                // Color of each bar
+                backgroundColor: ["aqua", "green", "red", "yellow"],
+                // Border color of each bar
+                borderColor: ["aqua", "green", "red", "yellow"],
+                borderWidth: 0.5,
+              },
+            ],
+          }}
+          // Height of graph
+          height={400}
+          options={{
+            maintainAspectRatio: false,
+            scales: {
+              yAxes: [
+                {
+                  ticks: {
+                    // The y-axis value will start from zero
+                    beginAtZero: true,
+                  },
+                },
+              ],
+            },
+            legend: {
+              labels: {
+                fontSize: 15,
+              },
+            },
+          }}
+        /> */}
+      </div>
+    </div>
+  );
 }
 
 export default Graph;

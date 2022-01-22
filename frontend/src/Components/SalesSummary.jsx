@@ -7,7 +7,7 @@ const SalesSummary = () => {
     
 
     return (
-        <div style={{width:"40%", height:"400px", border:"1px solid white", marginTop:"20px",backgroundColor:"white"}}>
+        <div style={{width:"40%", height:"400px", border:"1px solid white",backgroundColor:"white"}}>
             <div style={{display:"flex", justifyContent:"space-between", padding:"10px"}}>
                 <div>Sales Summary</div>
                 <div>Drop Down</div>

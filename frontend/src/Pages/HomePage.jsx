@@ -9,7 +9,7 @@ const HomePage = ( ) => {
         <>
             <div style={{padding:"15px"}}>
                 <CartTop/>
-                <div style={{display:"flex", justifyContent:"space-between",alignItems:"center"}}>
+                <div style={{display:"flex", justifyContent:"space-between",marginTop:"20px",gap:"20px"}}>
                     <SalesSummary/>
                     <MiddleBox/>
                     <BestSellingProducts/>
