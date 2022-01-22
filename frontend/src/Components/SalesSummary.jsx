@@ -16,8 +16,8 @@ const SalesSummary = () => {
             <div style={{display:"flex", justifyContent:"space-around",margin:"20px 0"}}>
                 {dataSet2?.map(e => (
                     <li key={e.id} style={{display:"flex", flexDirection:"column", textAlign:"center"}}>
-                        <div>{e.first_heading}</div>
-                        <div>{e.first_value}</div>
+                        <div style={{fontWeight:"500"}}>{e.first_heading}</div>
+                        <div style={{fontWeight:"500",color:"teal"}}>{e.first_value}</div>
                     </li>
                 ))}
             </div>
