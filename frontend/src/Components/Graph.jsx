@@ -1,52 +1,44 @@
-import { Bar } from "react-chartjs-2";
+import { VictoryBar, VictoryChart, VictoryAxis, VictoryTheme } from 'victory';
+import styles from "./Styles/graph.module.css"
+
+const data = [
+    {quarter: 1, earnings: 500000},
+    {quarter: 2, earnings: 1000000},
+    {quarter: 3, earnings: 15000000},
+    {quarter: 4, earnings: 20000000},
+    {quarter: 5, earnings: 40000000}
+  ];
+
+  let style = {
+
+  }
 
 const Graph = () =>  {
-  return (
-    <div >
-      <h1></h1>
-      <div style={{ maxWidth: "650px" }}>
-        {/* <Bar
-          data={{
-            // Name of the variables on x-axies for each bar
-            labels: ["1st bar", "2nd bar", "3rd bar", "4th bar"],
-            datasets: [
-              {
-                // Label for bars
-                label: "total count/value",
-                // Data or value of your each variable
-                data: [1552, 1319, 613, 1400],
-                // Color of each bar
-                backgroundColor: ["aqua", "green", "red", "yellow"],
-                // Border color of each bar
-                borderColor: ["aqua", "green", "red", "yellow"],
-                borderWidth: 0.5,
-              },
-            ],
-          }}
-          // Height of graph
-          height={400}
-          options={{
-            maintainAspectRatio: false,
-            scales: {
-              yAxes: [
-                {
-                  ticks: {
-                    // The y-axis value will start from zero
-                    beginAtZero: true,
-                  },
-                },
-              ],
-            },
-            legend: {
-              labels: {
-                fontSize: 15,
-              },
-            },
-          }}
-        /> */}
-      </div>
+  
+    return (
+    <div className={styles.container}>
+      <VictoryChart
+        // adding the material theme provided with Victory
+        theme={VictoryTheme.material}
+        domainPadding={20}
+      >
+        <VictoryAxis
+          tickValues={[1, 2, 3, 4,5]}
+          tickFormat={["10", "11","12","13", "14"]}
+        />
+        <VictoryAxis
+          dependentAxis
+          tickFormat={(x) => (`${x}`)}
+        />
+        <VictoryBar
+          data={data}
+          x="quarter"
+          y="earnings"
+        />
+      </VictoryChart>
+
     </div>
-  );
+    )
 }
 
 export default Graph;
